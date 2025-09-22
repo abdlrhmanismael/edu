@@ -1,0 +1,8 @@
+// Main Sass file
+// Import Bootstrap with custom variables
+
+// 1. Custom Variables (must come first to override Bootstrap defaults)
+@import 'variables';
+
+// 2. Bootstrap (imports after our custom variables)
+@import 'bootstrap/scss/bootstrap';
