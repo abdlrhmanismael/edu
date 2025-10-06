@@ -2,7 +2,12 @@
 // Import Bootstrap with custom variables
 
 // 1. Custom Variables (must come first to override Bootstrap defaults)
-@import 'variables';
+@import "variables";
 
 // 2. Bootstrap (imports after our custom variables)
-@import 'bootstrap/scss/bootstrap';
+@import "bootstrap/scss/bootstrap";
+
+// 3. Global styles
+body {
+  overflow-x: hidden; // Prevent horizontal scroll
+}

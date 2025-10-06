@@ -1,32 +1,34 @@
 <template>
   <div id="app" class="d-flex flex-column min-vh-100">
+    <main class="">
+      <Navbar />
+      <Hero />
+      <FeatureBar />
+      <TopCategories />
+      <PopularCourses />
 
-    <main class="flex-grow-1">
-      <HeroSection />
-      <FeaturesSection />
-      <DashboardSection />
-      <ThemesSwiperSection />
-      <PromoSection />
-      <IntegrationsSwiperSection />
-      <TestimonialsSection />
-
-      <PricingSection />
-
-
+      <PromoBanner />
+      <ExploreSkills />
+      <Testimonials />
+      <LatestArticles />
+      <SubscriptionBanner />
     </main>
- 
+    <Footer />
   </div>
 </template>
 
 <script setup>
-import HeroSection from './components/sections/HeroSection.vue'
-import DashboardSection from './components/sections/DashboardSection.vue'
-import FeaturesSection from './components/sections/FeaturesSection.vue'
-import PromoSection from './components/sections/PromoSection.vue'
-import ThemesSwiperSection from './components/sections/ThemesSwiperSection.vue'
-import IntegrationsSwiperSection from './components/sections/IntegrationsSwiperSection.vue'
-import TestimonialsSection from './components/sections/TestimonialsSection.vue'
-import PricingSection from './components/sections/PricingSection.vue'
+import Navbar from "./components/layout/navbar.vue";
+import Hero from "./components/sections/hero.vue";
+import FeatureBar from "./components/sections/feature-bar.vue";
+import TopCategories from "./components/sections/top-categories.vue";
+import PopularCourses from "./components/sections/popular-courses.vue";
+import ExploreSkills from "./components/sections/explore-skills.vue";
+import PromoBanner from "./components/sections/promo-banner.vue";
+import Testimonials from "./components/sections/testimonials.vue";
+import LatestArticles from "./components/sections/latest-articles.vue";
+import SubscriptionBanner from "./components/sections/subscription-banner.vue";
+import Footer from "./components/layout/footer.vue";
 </script>
 
 <style>
