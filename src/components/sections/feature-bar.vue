@@ -9,7 +9,7 @@
             class="col-md-4"
           >
             <div class="feature-card d-flex align-items-center">
-              <div class="feature-icon me-3">
+              <div class="feature-icon me-3 ms-3 ms-md-0">
                 <i :class="feature.icon"></i>
               </div>
               <div class="feature-text">

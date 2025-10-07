@@ -168,12 +168,10 @@ const moreCourses = {
 
 .category-card {
   background: #f8f9fa;
-  border: 1px solid #e5e7eb;
   border-radius: 10px;
   padding: 1.5rem;
   display: flex;
   align-items: center;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
   transition: all 0.3s ease;
   height: 100%;
   min-height: 80px;

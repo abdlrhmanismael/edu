@@ -1,7 +1,7 @@
 <template>
   <section class="hero-section bg-light-subtle">
     <div class="container-fluid ms-lg-5">
-      <div class="row align-items-center g-5">
+      <div class="row align-items-center">
         <!-- Left copy -->
         <div class="col-lg-6">
           <div class="d-flex align-items-center gap-2 text-primary mb-3">
@@ -40,16 +40,28 @@
               class="left-images d-flex flex-column gap-3 gap-lg-4 align-items-center"
             >
               <div class="img-rect rounded-4 overflow-hidden shadow-sm">
-                <img src="/hero_one.jpg" alt="workspace" class="img-fill" />
+                <img
+                  src="/assets/img/theme-four/hero_one.jpg"
+                  alt="workspace"
+                  class="img-fill"
+                />
               </div>
               <div class="img-large rounded-circle overflow-hidden shadow-sm">
-                <img src="/hero_two.jpg" alt="student" class="img-fill" />
+                <img
+                  src="/assets/img/theme-four/hero_two.jpg"
+                  alt="student"
+                  class="img-fill"
+                />
               </div>
             </div>
             <!-- Right column with third image -->
             <div class="right-image ms-3 ms-lg-4">
               <div class="image_thumb overflow-hidden shadow-sm">
-                <img src="/hero_three.jpg" alt="learning" class="img-fill" />
+                <img
+                  src="/assets/img/theme-four/hero_three.jpg"
+                  alt="learning"
+                  class="img-fill"
+                />
               </div>
             </div>
           </div>

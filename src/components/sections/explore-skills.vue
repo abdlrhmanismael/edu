@@ -25,37 +25,37 @@ import { ref } from "vue";
 const skills = ref([
   {
     id: 1,
-    image: "/public/cap.png",
+    image: "/assets/img/theme-four/cap.png",
     alt: "explore skills",
     isIndividual: true,
   },
   {
     id: 2,
-    image: "/public/cap.png",
+    image: "/assets/img/theme-four/cap.png",
     alt: "explore skills",
     isIndividual: false,
   },
   {
     id: 3,
-    image: "/public/cap.png",
+    image: "/assets/img/theme-four/cap.png",
     alt: "explore skills",
     isIndividual: true,
   },
   {
     id: 4,
-    image: "/public/cap.png",
+    image: "/assets/img/theme-four/cap.png",
     alt: "explore skills",
     isIndividual: false,
   },
   {
     id: 5,
-    image: "/public/cap.png",
+    image: "/assets/img/theme-four/cap.png",
     alt: "explore skills",
     isIndividual: true,
   },
   {
     id: 6,
-    image: "/public/cap.png",
+    image: "/assets/img/theme-four/cap.png",
     alt: "explore skills",
     isIndividual: false,
   },

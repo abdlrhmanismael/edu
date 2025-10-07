@@ -6,7 +6,7 @@
           <!-- Header -->
           <div class="articles-header">
             <h2 class="section-title">
-              <span class="title-dark">Latest</span>
+              <span class="title-dark me-2">Latest</span>
               <span class="title-blue">Articles</span>
             </h2>
             <div class="title-underline"></div>
@@ -49,7 +49,7 @@ export default {
     return {
       articles: [
         {
-          image: "/hero_one.jpg",
+          image: "/assets/img/theme-four/hero_one.jpg",
           title: "How to Avoid the Biggest College Admission Mistakes",
           author: "DAVID CARTER",
           category: "LEARNING",
@@ -59,7 +59,7 @@ export default {
           },
         },
         {
-          image: "/hero_two.jpg",
+          image: "/assets/img/theme-four/hero_two.jpg",
           title: "How Digital Platforms Are Shaping Business Schools",
           author: "DAVID CARTER",
           category: "LEARNING",
@@ -69,7 +69,7 @@ export default {
           },
         },
         {
-          image: "/hero_three.jpg",
+          image: "/assets/img/theme-four/hero_three.jpg",
           title: "Why Business Students Need Tech Skills for the Future",
           author: "DAVID CARTER",
           category: "LEARNING",
@@ -211,7 +211,7 @@ export default {
 }
 
 .article-content {
-  padding: 25px 20px;
+  padding: 25px 0;
 
   .article-meta {
     display: flex;
@@ -281,4 +281,3 @@ export default {
   }
 }
 </style>
-

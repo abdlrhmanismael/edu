@@ -6,11 +6,10 @@
       <FeatureBar />
       <TopCategories />
       <PopularCourses />
-
-      <PromoBanner />
+      <StatisticsBanner />
       <ExploreSkills />
-      <Testimonials />
       <LatestArticles />
+      <Testmonial />
       <SubscriptionBanner />
     </main>
     <Footer />
@@ -21,13 +20,13 @@
 import Navbar from "./components/layout/navbar.vue";
 import Hero from "./components/sections/hero.vue";
 import FeatureBar from "./components/sections/feature-bar.vue";
+import StatisticsBanner from "./components/sections/statistics-banner.vue";
 import TopCategories from "./components/sections/top-categories.vue";
 import PopularCourses from "./components/sections/popular-courses.vue";
 import ExploreSkills from "./components/sections/explore-skills.vue";
-import PromoBanner from "./components/sections/promo-banner.vue";
-import Testimonials from "./components/sections/testimonials.vue";
 import LatestArticles from "./components/sections/latest-articles.vue";
 import SubscriptionBanner from "./components/sections/subscription-banner.vue";
+import Testmonial from "./components/sections/testmonial.vue";
 import Footer from "./components/layout/footer.vue";
 </script>
 

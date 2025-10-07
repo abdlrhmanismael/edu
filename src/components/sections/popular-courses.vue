@@ -11,7 +11,7 @@
         </div>
         <div class="col-lg-6">
           <div
-            class="filter-buttons d-flex flex-wrap gap-2 justify-content-lg-end"
+            class="filter-buttons d-flex flex-wrap gap-2 justify-content-lg-end border-none"
           >
             <button
               v-for="filter in filters"
@@ -112,7 +112,7 @@ const courses = ref([
     id: 1,
     title: "Creating Stunning UI Design with Figma",
     category: "DESIGN",
-    image: "/hero_one.jpg",
+    image: "/assets/img/theme-four/hero_one.jpg",
     instructor: {
       name: "Lucas Vaughn",
       avatar: "/person.png",
@@ -128,7 +128,7 @@ const courses = ref([
     id: 2,
     title: "Building Chatbots with OpenAI's GPT",
     category: "LANGUAGE",
-    image: "/hero_two.jpg",
+    image: "/assets/img/theme-four/hero_two.jpg",
     instructor: {
       name: "Mark Evans",
       avatar: "/person.png",
@@ -144,7 +144,7 @@ const courses = ref([
     id: 3,
     title: "Master the Art of Vegan Cooking Recipes",
     category: "COOKING",
-    image: "/hero_three.jpg",
+    image: "/assets/img/theme-four/hero_three.jpg",
     instructor: {
       name: "David Carter",
       avatar: "/person.png",
@@ -160,7 +160,7 @@ const courses = ref([
     id: 4,
     title: "Conversational Spanish for Beginners",
     category: "COOKING",
-    image: "/hero_one.jpg",
+    image: "/assets/img/theme-four/hero_one.jpg",
     instructor: {
       name: "Mark Evans",
       avatar: "/person.png",
@@ -176,7 +176,7 @@ const courses = ref([
     id: 5,
     title: "Conversational Spanish for Beginners",
     category: "COOKING",
-    image: "/hero_one.jpg",
+    image: "/assets/img/theme-four/hero_one.jpg",
     instructor: {
       name: "Mark Evans",
       avatar: "/person.png",
@@ -253,13 +253,10 @@ const setActiveFilter = (filterId: string) => {
 
     &:hover {
       background: #f3f4f6;
-      border-color: #d1d5db;
     }
 
     &.active {
       background: #e5e7eb;
-      color: #374151;
-      border-color: #d1d5db;
     }
   }
 }
