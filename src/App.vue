@@ -1,32 +1,25 @@
 <template>
   <div id="app" class="d-flex flex-column min-vh-100">
-
-    <main class="flex-grow-1">
+    <main>
       <HeroSection />
-      <FeaturesSection />
-      <DashboardSection />
-      <ThemesSwiperSection />
-      <PromoSection />
-      <IntegrationsSwiperSection />
-      <TestimonialsSection />
-
-      <PricingSection />
-
-
+      <ProvideSection />
+      <TeachersSection />
+      <CoursesSection />
+      <PrioritySection />
+      <ReadyToStartSection />
+      <MentorsSection />
     </main>
- 
   </div>
 </template>
 
 <script setup>
-import HeroSection from './components/sections/HeroSection.vue'
-import DashboardSection from './components/sections/DashboardSection.vue'
-import FeaturesSection from './components/sections/FeaturesSection.vue'
-import PromoSection from './components/sections/PromoSection.vue'
-import ThemesSwiperSection from './components/sections/ThemesSwiperSection.vue'
-import IntegrationsSwiperSection from './components/sections/IntegrationsSwiperSection.vue'
-import TestimonialsSection from './components/sections/TestimonialsSection.vue'
-import PricingSection from './components/sections/PricingSection.vue'
+import HeroSection from "./components/sections/hero.vue";
+import PrioritySection from "./components/sections/priority.vue";
+import ProvideSection from "./components/sections/provide.vue";
+import TeachersSection from "./components/sections/teachers.vue";
+import MentorsSection from "./components/sections/mentors.vue";
+import CoursesSection from "./components/sections/courses.vue";
+import ReadyToStartSection from "./components/sections/ready-to-start.vue";
 </script>
 
 <style>
